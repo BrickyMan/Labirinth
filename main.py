@@ -76,8 +76,10 @@ walls.add(Wall(450, 130, 10, 360))
 walls.add(Wall(300, 20, 10, 350))
 walls.add(Wall(390, 120, 130, 10))
 
+# Создание спрайтов
 player = Player('hero.png', 5, 100)
 bot = Enemy('cyborg.png', 600, 280)
+# Установка скорости бота
 bot.dx = 3
 goal = Sprite('treasure.png', 580, 420)
 
